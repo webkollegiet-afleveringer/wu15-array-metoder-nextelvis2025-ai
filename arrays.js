@@ -60,8 +60,16 @@ console.log("Opgave 6",dogsArray.join(""));
 
 // --- opgave 7a ---
 
-
+console.log("Opgave 7a",fruitsArray.indexOf("Mango"));
 
 // --- opgave 7b ---
 
+console.log("Opgave 7b",fruitsArray.indexOf("Blåbær"));
+
 // --- opgave 8 ---
+
+let index = dogsArray.indexOf("Polly");
+if (index > -1) {
+    dogsArray.splice(index, 1);
+}
+console.log("Opgave 8 " + dogsArray)
