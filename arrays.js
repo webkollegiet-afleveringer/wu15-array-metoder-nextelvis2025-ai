@@ -19,3 +19,17 @@ let count = catsArray.push("Sniffles");
 
 console.log(catsArray);
 
+
+// --- opgave 3a ---
+
+let Trixie = dogsArray.includes("Trixie");
+console.log(typeof dogsArray);
+console.log(Trixie === true);
+
+
+
+// --- opgave 3b ---
+
+let Baxter = dogsArray.includes("Baxter");
+console.log(typeof dogsArray);
+console.log(Baxter === true);
