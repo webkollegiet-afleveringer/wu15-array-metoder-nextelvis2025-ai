@@ -5,8 +5,17 @@ let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 
 // --- Løs opgaverne herunder --- 
 
-
+// --- opgave 1 --- 
 let result = numbersArray.filter((Number) => Number > 20);
 console.log(result);
 
+// --- opgave 2 ---
+
+// catsArray = catsArray.map(function(name){
+//     return {"Sniffles": name};
+// });
+
+let count = catsArray.push("Sniffles");
+
+console.log(catsArray);
 
